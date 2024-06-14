@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://TheoBurnel.github.io/Latin8878-v2/annotations/f35.json", "https://TheoBurnel.github.io/Latin8878-v2/annotations/f37.json", "https://TheoBurnel.github.io/Latin8878-v2/annotations/f102.json", "https://TheoBurnel.github.io/Latin8878-v2/annotations/f130.json", "https://TheoBurnel.github.io/Latin8878-v2/annotations/f184.json", "https://TheoBurnel.github.io/Latin8878-v2/annotations/f260.json" ],
+  "otherContent" : [ "https://TheoBurnel.github.io/Latin8878-v2/annotations/f35.json", "https://TheoBurnel.github.io/Latin8878-v2/annotations/f37.json", "https://TheoBurnel.github.io/Latin8878-v2/annotations/f102.json", "https://TheoBurnel.github.io/Latin8878-v2/annotations/f130.json", "https://TheoBurnel.github.io/Latin8878-v2/annotations/f184.json", "https://TheoBurnel.github.io/Latin8878-v2/annotations/f260.json", "https://TheoBurnel.github.io/Latin8878-v2/annotations/f413.json" ],
   "@id" : "https://TheoBurnel.github.io/Latin8878-v2/annotations/collection.json",
   "label" : "All annotations loaded in TheoBurnel/Latin8878-v2 project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
