@@ -255,124 +255,30 @@
       "@type" : "sc:Canvas"
     }, {
       "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f9",
-      "@type" : "sc:Canvas",
       "label" : "3r",
       "height" : 5885,
       "width" : 4648,
       "images" : [ {
-        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f9",
-        "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f9",
         "resource" : {
-          "default" : {
-            "label" : "3r",
-            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f9/full/full/0/native.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/jpeg",
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f9",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            },
-            "height" : 5885,
-            "width" : 4648
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f9"
           },
-          "item" : [ {
-            "label" : "Analyse : arsenic",
-            "@id" : "https://iiif.archivelab.org/iiif/f3_as_202405/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5885,
-            "width" : 4648,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f3_as_202405",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : calcium",
-            "@id" : "https://iiif.archivelab.org/iiif/f3_Ca/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5885,
-            "width" : 4648,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f3_Ca",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : cuivre",
-            "@id" : "https://iiif.archivelab.org/iiif/f3_Cu/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5885,
-            "width" : 4648,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f3_Cu",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : fer",
-            "@id" : "https://iiif.archivelab.org/iiif/f3_Fe/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5885,
-            "width" : 4648,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f3_Fe",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : mercure",
-            "@id" : "https://iiif.archivelab.org/iiif/f3_HgL/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5885,
-            "width" : 4648,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f3_HgL",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : potassium",
-            "@id" : "https://iiif.archivelab.org/iiif/f3_k_20240517/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5885,
-            "width" : 4648,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f3_k_20240517",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : zinc",
-            "@id" : "https://iiif.archivelab.org/iiif/f3_Zn/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5885,
-            "width" : 4648,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif//f3_Zn",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          } ],
-          "@type" : "oa:Choice"
+          "height" : 5885,
+          "width" : 4648,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f9/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
         },
-        "on" : "http://46d41f13-220c-4476-a8ce-542de7d3a054"
-      } ]
+        "@type" : "oa:Annotation"
+      } ],
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b52505441p/f9.thumbnail"
+      },
+      "@type" : "sc:Canvas"
     }, {
       "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f10",
       "label" : "3v",
@@ -1025,208 +931,35 @@
       "@type" : "sc:Canvas"
     }, {
       "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f35",
-      "@type" : "sc:Canvas",
       "label" : "13r",
       "height" : 5941,
       "width" : 4624,
       "images" : [ {
-        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f35",
-        "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f35",
         "resource" : {
-          "default" : {
-            "label" : "13r",
-            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f35/full/full/0/native.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/jpeg",
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f35",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            },
-            "height" : 5941,
-            "width" : 4624
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f35"
           },
-          "item" : [ {
-            "label" : "Bleu clair (bleu outremer)",
-            "@id" : "https://iiif.archivelab.org/iiif/f13_bleu_clair/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "width" : 4624,
-            "height" : 5941,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f13_bleu_clair",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Bleu outremer (Si)",
-            "@id" : "https://iiif.archivelab.org/iiif/f13_Si/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "width" : 4624,
-            "height" : 5941,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f13_Si",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Bleu outremer: (K)",
-            "@id" : "https://iiif.archivelab.org/iiif/f13_K/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "width" : 4624,
-            "height" : 5941,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f13_K",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Bleu foncé (azurite)",
-            "@id" : "https://iiif.archivelab.org/iiif/f13_bleu_fonce/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "width" : 4624,
-            "height" : 5941,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f13_bleu_fonce",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Doré (or)",
-            "@id" : "https://iiif.archivelab.org/iiif/f13_dore/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "width" : 4624,
-            "height" : 5941,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f13_dore",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Jaune (orpiment)",
-            "@id" : "https://iiif.archivelab.org/iiif/f13_jaune/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "width" : 4624,
-            "height" : 5941,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "https://iiif.archivelab.org/iiif/f13_jaune",
-              "@id" : "",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Noir (carbone)",
-            "@id" : "https://iiif.archivelab.org/iiif/f13_noir/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "width" : 4624,
-            "height" : 5941,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f13_noir",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Rouge foncé (vermillon)",
-            "@id" : "https://iiif.archivelab.org/iiif/f13_rouge_fonce/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "width" : 4624,
-            "height" : 5941,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f13_rouge_fonce",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Rouge vif (vermillon)",
-            "@id" : "https://iiif.archivelab.org/iiif/f13_rouge_vif/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "width" : 4624,
-            "height" : 5941,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f13_rouge_vif",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Orseille (Ca)",
-            "@id" : "https://iiif.archivelab.org/iiif/f13_Ca/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "width" : 4624,
-            "height" : 5941,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f13_Ca",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Vert (indigo et orpiment)",
-            "@id" : "https://iiif.archivelab.org/iiif/f13_vert/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "width" : 4624,
-            "height" : 5941,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f13_vert",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Violet",
-            "@id" : "https://iiif.archivelab.org/iiif/f13_violet/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "width" : 4624,
-            "height" : 5941,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f13_violet",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Bleu égyptien (PL)",
-            "@id" : "https://iiif.archivelab.org/iiif/f13_PL/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "width" : 4624,
-            "height" : 5941,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f13_PL",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          } ],
-          "@type" : "oa:Choice"
+          "height" : 5941,
+          "width" : 4624,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f35/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
         },
-        "on" : "http://46d41f13-220c-4476-a8ce-542de7d3a054"
+        "@type" : "oa:Annotation"
       } ],
+      "@type" : "sc:Canvas",
       "otherContent" : [ {
         "@id" : "https://theoburnel.github.io/Latin8878-v2/annotations/f35.json",
         "@type" : "sc:AnnotationList",
         "label" : "My fantastic annotations"
       } ],
-      "related" : ""
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b52505441p/f35.thumbnail"
+      }
     }, {
       "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f36",
       "label" : "13v",
@@ -1255,104 +988,35 @@
       "@type" : "sc:Canvas"
     }, {
       "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f37",
-      "@type" : "sc:Canvas",
       "label" : "14r",
       "height" : 5942,
       "width" : 4576,
       "images" : [ {
-        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f37",
-        "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f37",
         "resource" : {
-          "default" : {
-            "label" : "14r",
-            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f37/full/full/0/native.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/jpeg",
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f37",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            },
-            "height" : 5942,
-            "width" : 4576
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f37"
           },
-          "item" : [ {
-            "label" : "Analyse : arsenic",
-            "@id" : "https://iiif.archivelab.org/iiif/f14_As/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5942,
-            "width" : 4576,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f14_As",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : or",
-            "@id" : "https://iiif.archivelab.org/iiif/f14_Au/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5942,
-            "width" : 4576,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f14_Au",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : mercure",
-            "@id" : "https://iiif.archivelab.org/iiif/f14_Hg/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5942,
-            "width" : 4576,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f14_Hg",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : potassium",
-            "@id" : "https://iiif.archivelab.org/iiif/f14_K/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5942,
-            "width" : 4576,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f14_K",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : silicium",
-            "@id" : "https://iiif.archivelab.org/iiif/f14_Si/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5942,
-            "width" : 4576,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f14_Si",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          } ],
-          "@type" : "oa:Choice"
+          "height" : 5942,
+          "width" : 4576,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f37/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
         },
-        "on" : "http://46d41f13-220c-4476-a8ce-542de7d3a054"
+        "@type" : "oa:Annotation"
       } ],
+      "@type" : "sc:Canvas",
       "otherContent" : [ {
         "@id" : "https://theoburnel.github.io/Latin8878-v2/annotations/f37.json",
         "@type" : "sc:AnnotationList",
         "label" : "My fantastic annotations"
       } ],
-      "related" : ""
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b52505441p/f37.thumbnail"
+      }
     }, {
       "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f38",
       "label" : "14v",
@@ -3019,130 +2683,35 @@
       "@type" : "sc:Canvas"
     }, {
       "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f102",
-      "@type" : "sc:Canvas",
       "label" : "45v-bis",
       "height" : 5934,
       "width" : 4522,
       "images" : [ {
-        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f102",
-        "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f102",
         "resource" : {
-          "default" : {
-            "label" : "45v-bis",
-            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f102/full/full/0/native.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/jpeg",
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f102",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            },
-            "height" : 5934,
-            "width" : 4522
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f102"
           },
-          "item" : [ {
-            "label" : "Analyse : arsenic",
-            "@id" : "https://iiif.archivelab.org/iiif/f45_as_202405/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4522,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f45_as_202405",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : calcium",
-            "@id" : "https://iiif.archivelab.org/iiif/f45_Ca/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4522,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f45_Ca",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse :cuivre",
-            "@id" : "https://iiif.archivelab.org/iiif/f45_Cu/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4522,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f45_Cu",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : fer",
-            "@id" : "https://iiif.archivelab.org/iiif/f45_Fe/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4522,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f45_Fe",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : mercure",
-            "@id" : "https://iiif.archivelab.org/iiif/f45_Hg/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4522,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f45_Hg",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : potassium",
-            "@id" : "https://iiif.archivelab.org/iiif/f45_K/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4522,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f45_K",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : silicium",
-            "@id" : "https://iiif.archivelab.org/iiif/f45_Si/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4522,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f45_Si",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          } ],
-          "@type" : "oa:Choice"
+          "height" : 5934,
+          "width" : 4522,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f102/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
         },
-        "on" : "http://46d41f13-220c-4476-a8ce-542de7d3a054"
+        "@type" : "oa:Annotation"
       } ],
       "otherContent" : [ {
         "@id" : "https://theoburnel.github.io/Latin8878-v2/annotations/f102.json",
         "@type" : "sc:AnnotationList",
         "label" : "My fantastic annotations"
       } ],
-      "related" : ""
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b52505441p/f102.thumbnail"
+      },
+      "@type" : "sc:Canvas"
     }, {
       "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f103",
       "label" : "45r-ter",
@@ -3561,124 +3130,30 @@
       "@type" : "sc:Canvas"
     }, {
       "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f119",
-      "@type" : "sc:Canvas",
       "label" : "52v",
       "height" : 5934,
       "width" : 4521,
       "images" : [ {
-        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f119",
-        "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f119",
         "resource" : {
-          "default" : {
-            "label" : "52v",
-            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f119/full/full/0/native.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/jpeg",
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f119",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            },
-            "height" : 5934,
-            "width" : 4521
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f119"
           },
-          "item" : [ {
-            "label" : "52v : bleu outremer",
-            "@id" : "https://iiif.archivelab.org/iiif/f52_bleu_outremer/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4521,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f52_bleu_outremer",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "52v : jaune",
-            "@id" : "https://iiif.archivelab.org/iiif/f52_jaune/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4521,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f52_jaune",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "52v : noir",
-            "@id" : "https://iiif.archivelab.org/iiif/f52_noir/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4521,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f52_noir",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "52v : or",
-            "@id" : "https://iiif.archivelab.org/iiif/f52_or/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4521,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f52_or",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "52v : orange",
-            "@id" : "https://iiif.archivelab.org/iiif/f52_orange/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4521,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f52_orange",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "52v : rouge",
-            "@id" : "https://iiif.archivelab.org/iiif/f52_rouge/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4521,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f52_rouge",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "52v : vert",
-            "@id" : "https://iiif.archivelab.org/iiif/f52_vert/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4521,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f52_vert",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          } ],
-          "@type" : "oa:Choice"
+          "height" : 5934,
+          "width" : 4521,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f119/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
         },
-        "on" : "http://46d41f13-220c-4476-a8ce-542de7d3a054"
-      } ]
+        "@type" : "oa:Annotation"
+      } ],
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b52505441p/f119.thumbnail"
+      },
+      "@type" : "sc:Canvas"
     }, {
       "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f120",
       "label" : "53r",
@@ -3941,143 +3416,35 @@
       "@type" : "sc:Canvas"
     }, {
       "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f130",
-      "@type" : "sc:Canvas",
       "label" : "58r",
       "height" : 5981,
       "width" : 4608,
       "images" : [ {
-        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f130",
-        "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f130",
         "resource" : {
-          "default" : {
-            "label" : "58r",
-            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f130/full/full/0/native.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/jpeg",
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f130",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            },
-            "height" : 5981,
-            "width" : 4608
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f130"
           },
-          "item" : [ {
-            "label" : "Analyse : argent",
-            "@id" : "https://iiif.archivelab.org/iiif/f58_Ag/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5981,
-            "width" : 4608,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f58_Ag",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : arsenic",
-            "@id" : "https://iiif.archivelab.org/iiif/f58_As/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5981,
-            "width" : 4608,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f58_As",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : or",
-            "@id" : "https://iiif.archivelab.org/iiif/f58_Au/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5981,
-            "width" : 4608,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f58_Au",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : calcium",
-            "@id" : "https://iiif.archivelab.org/iiif/f58_Ca/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5981,
-            "width" : 4608,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f58_Ca",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : cuivre",
-            "@id" : "https://iiif.archivelab.org/iiif/f58_Cu/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5981,
-            "width" : 4608,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f58_Cu",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : mercure",
-            "@id" : "https://iiif.archivelab.org/iiif/f58_Hg/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5981,
-            "width" : 4608,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f58_Hg",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : potassium",
-            "@id" : "https://iiif.archivelab.org/iiif/f58_K/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5981,
-            "width" : 4608,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f58_K",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : silicium",
-            "@id" : "https://iiif.archivelab.org/iiif/f58_Si/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5981,
-            "width" : 4608,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f58_Si",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          } ],
-          "@type" : "oa:Choice"
+          "height" : 5981,
+          "width" : 4608,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f130/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
         },
-        "on" : "http://46d41f13-220c-4476-a8ce-542de7d3a054"
+        "@type" : "oa:Annotation"
       } ],
       "otherContent" : [ {
         "@id" : "https://theoburnel.github.io/Latin8878-v2/annotations/f130.json",
         "@type" : "sc:AnnotationList",
         "label" : "My fantastic annotations"
       } ],
-      "related" : ""
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b52505441p/f130.thumbnail"
+      },
+      "@type" : "sc:Canvas"
     }, {
       "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f131",
       "label" : "58v",
@@ -5459,167 +4826,34 @@
     }, {
       "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f184",
       "label" : "85r",
-      "height" : 5864,
+      "height" : 5854,
       "width" : 4442,
       "images" : [ {
-        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f184",
-        "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f184",
         "resource" : {
-          "default" : {
-            "label" : "85r",
-            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f184/full/full/0/native.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/jpeg",
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f184",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            },
-            "height" : 5864,
-            "width" : 4442
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f184"
           },
-          "item" : [ {
-            "label" : "Analyse : arsenic",
-            "@id" : "https://iiif.archivelab.org/iiif/f85_As/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5864,
-            "width" : 4442,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f85_As",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : calcium",
-            "@id" : "https://iiif.archivelab.org/iiif/f85_Ca/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5864,
-            "width" : 4442,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f85_Ca",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : cuivre",
-            "@id" : "https://iiif.archivelab.org/iiif/f85_Cu/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5864,
-            "width" : 4442,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f85_Cu",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : fer",
-            "@id" : "https://iiif.archivelab.org/iiif/f85_Fe/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5864,
-            "width" : 4442,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f85_Fe",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "",
-            "@id" : "https://iiif.archivelab.org/iiif/f58_Cu/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5864,
-            "width" : 4442,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f58_Cu",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : mercure",
-            "@id" : "https://iiif.archivelab.org/iiif/f85_Hg/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5864,
-            "width" : 4442,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f85_Hg",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : mercure - log",
-            "@id" : "https://iiif.archivelab.org/iiif/f85_HgLog/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5864,
-            "width" : 4442,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f85_HgLog",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : potassium",
-            "@id" : "https://iiif.archivelab.org/iiif/f85_K/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5864,
-            "width" : 4442,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f85_K",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : plomb",
-            "@id" : "https://iiif.archivelab.org/iiif/f85_PbL/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5864,
-            "width" : 4442,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f85_PbL",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : silicium",
-            "@id" : "https://iiif.archivelab.org/iiif/f85_Si/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5864,
-            "width" : 4442,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f85_Si",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          } ],
-          "@type" : "oa:Choice"
+          "height" : 5854,
+          "width" : 4442,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f184/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
         },
-        "on" : "http://46d41f13-220c-4476-a8ce-542de7d3a054"
+        "@type" : "oa:Annotation"
       } ],
       "otherContent" : [ {
         "@id" : "https://theoburnel.github.io/Latin8878-v2/annotations/f184.json",
         "@type" : "sc:AnnotationList",
         "label" : "My fantastic annotations"
       } ],
-      "related" : ""
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b52505441p/f184.thumbnail"
+      },
+      "@type" : "sc:Canvas"
     }, {
       "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f185",
       "label" : "85v",
@@ -7546,289 +6780,61 @@
       "@type" : "sc:Canvas"
     }, {
       "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f259",
-      "@type" : "sc:Canvas",
-      "label" : "121v",
+      "label" : "NP",
       "height" : 5934,
       "width" : 4522,
       "images" : [ {
-        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f259",
-        "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f259",
         "resource" : {
-          "default" : {
-            "label" : "121v",
-            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f259/full/full/0/native.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/jpeg",
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f259",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            },
-            "height" : 5934,
-            "width" : 4522
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f259"
           },
-          "item" : [ {
-            "label" : "Analyse : bleu outremer",
-            "@id" : "https://iiif.archivelab.org/iiif/f121_bleu_outremer/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4522,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f121_bleu_outremer",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : carbone",
-            "@id" : "https://iiif.archivelab.org/iiif/f121_carbone/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4522,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f121_carbone",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : indigo - orpiment",
-            "@id" : "https://iiif.archivelab.org/iiif/f121_indigo_orpiment/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4522,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f121_indigo_orpiment",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : or",
-            "@id" : "https://iiif.archivelab.org/iiif/f121_or/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4522,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f121_or",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : orpiment",
-            "@id" : "https://iiif.archivelab.org/iiif/f121_orpiment/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4522,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f121_orpiment",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : vermillon",
-            "@id" : "https://iiif.archivelab.org/iiif/f121_vermillon/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4522,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f121_vermillon",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          } ],
-          "@type" : "oa:Choice"
+          "height" : 5934,
+          "width" : 4522,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f259/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
         },
-        "on" : "http://46d41f13-220c-4476-a8ce-542de7d3a054"
-      } ]
+        "@type" : "oa:Annotation"
+      } ],
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b52505441p/f259.thumbnail"
+      },
+      "@type" : "sc:Canvas"
     }, {
       "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f260",
-      "@type" : "sc:Canvas",
       "label" : "122r",
       "height" : 5942,
       "width" : 4624,
       "images" : [ {
-        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f260",
-        "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f260",
         "resource" : {
-          "default" : {
-            "label" : "122r",
-            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f260/full/full/0/native.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/jpeg",
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f260",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            },
-            "height" : 5942,
-            "width" : 4624
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f260"
           },
-          "item" : [ {
-            "label" : "Analyse : arsenic",
-            "@id" : "https://iiif.archivelab.org/iiif/f122_As/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5942,
-            "width" : 4624,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f122_As",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : or",
-            "@id" : "https://iiif.archivelab.org/iiif/f122_Au/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5942,
-            "width" : 4624,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f122_Au",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : calcium",
-            "@id" : "https://iiif.archivelab.org/iiif/f122_Ca/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5942,
-            "width" : 4624,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f122_Ca",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : cuivre",
-            "@id" : "https://iiif.archivelab.org/iiif/f122_Cu/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5942,
-            "width" : 4624,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f122_Cu",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : fer",
-            "@id" : "https://iiif.archivelab.org/iiif/f122_Fe/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5942,
-            "width" : 4624,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f122_Fe",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : mercure-log",
-            "@id" : "https://iiif.archivelab.org/iiif/f122_HG_Log/full/512,/0/default.png",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5942,
-            "width" : 4624,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f122_HG_Log",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : mercure",
-            "@id" : "https://iiif.archivelab.org/iiif/f122_Hg/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5942,
-            "width" : 4624,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f122_Hg",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : potassium",
-            "@id" : "https://iiif.archivelab.org/iiif/f122_K/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5942,
-            "width" : 4624,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f122_K",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : plomb-log",
-            "@id" : "https://iiif.archivelab.org/iiif/f122_Pb_Log/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5942,
-            "width" : 4624,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f122_Pb_Log",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : plomb",
-            "@id" : "https://iiif.archivelab.org/iiif/f122_Pb/full/512,/0/default.png",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5942,
-            "width" : 4624,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f122_Pb",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : silicium",
-            "@id" : "https://iiif.archivelab.org/iiif/f122_Si/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5942,
-            "width" : 4624,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f122_Si",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          } ],
-          "@type" : "oa:Choice"
+          "height" : 5942,
+          "width" : 4624,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f260/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
         },
-        "on" : "http://46d41f13-220c-4476-a8ce-542de7d3a054"
+        "@type" : "oa:Annotation"
       } ],
       "otherContent" : [ {
         "@id" : "https://theoburnel.github.io/Latin8878-v2/annotations/f260.json",
         "@type" : "sc:AnnotationList",
         "label" : "My fantastic annotations"
       } ],
-      "related" : ""
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b52505441p/f260.thumbnail"
+      },
+      "@type" : "sc:Canvas"
     }, {
       "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f261",
       "label" : "NP",
@@ -11783,143 +10789,35 @@
       "@type" : "sc:Canvas"
     }, {
       "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f413",
-      "@type" : "sc:Canvas",
       "label" : "198r",
       "height" : 5934,
       "width" : 4522,
       "images" : [ {
-        "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f413",
-        "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f413",
         "resource" : {
-          "default" : {
-            "label" : "198r",
-            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f413/full/full/0/native.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/jpeg",
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f413",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            },
-            "height" : 5934,
-            "width" : 4522
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f413"
           },
-          "item" : [ {
-            "label" : "Analyse : plomb-log",
-            "@id" : "https://iiif.archivelab.org/iiif/f_198_PbL/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4522,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f_198_PbL",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : arsenic",
-            "@id" : "https://iiif.archivelab.org/iiif/f198_As/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4522,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f198_As",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : barium-log",
-            "@id" : "https://iiif.archivelab.org/iiif/f198_BaL/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4522,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f198_BaL",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : calcium",
-            "@id" : "https://iiif.archivelab.org/iiif/f198_Cu/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4522,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f198_Cu",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : fer",
-            "@id" : "https://iiif.archivelab.org/iiif/f198_Fe/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4522,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f198_Fe",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : mercure-log",
-            "@id" : "https://iiif.archivelab.org/iiif/f198_HgL/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4522,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f198_HgL",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : potassium",
-            "@id" : "https://iiif.archivelab.org/iiif/f198_K/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4522,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f198_K",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          }, {
-            "label" : "Analyse : soufre",
-            "@id" : "https://iiif.archivelab.org/iiif/f198_S/full/512,/0/default.jpg",
-            "@type" : "dctypes:Image",
-            "format" : "image/png",
-            "height" : 5934,
-            "width" : 4522,
-            "opacity" : 0.35,
-            "service" : {
-              "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
-              "@id" : "https://iiif.archivelab.org/iiif/f198_S",
-              "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
-            }
-          } ],
-          "@type" : "oa:Choice"
+          "height" : 5934,
+          "width" : 4522,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/f413/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
         },
-        "on" : "http://46d41f13-220c-4476-a8ce-542de7d3a054"
+        "@type" : "oa:Annotation"
       } ],
       "otherContent" : [ {
         "@id" : "https://theoburnel.github.io/Latin8878-v2/annotations/f413.json",
         "@type" : "sc:AnnotationList",
         "label" : "My fantastic annotations"
       } ],
-      "related" : ""
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b52505441p/f413.thumbnail"
+      },
+      "@type" : "sc:Canvas"
     }, {
       "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f414",
       "label" : "198v",
@@ -16975,69 +15873,51 @@
   "@type" : "sc:Manifest",
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "structures" : [ {
-    "ranges" : [ "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r1", "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r2", "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r3", "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r4", "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r5", "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r6", "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r7", "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r8", "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r9", "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r10" ],
+    "ranges" : [ "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r1", "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r2", "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r3", "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r4", "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r5", "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r6", "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r7" ],
     "viewingHint" : "top",
     "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r0",
     "@type" : "sc:Range",
     "label" : "Analyse"
   }, {
-    "canvases" : [ "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f9" ],
-    "within" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r0",
-    "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r1",
-    "@type" : "sc:Range",
-    "label" : "f.3r : La transmission du Verbe et l'établissement de l'Alliance"
-  }, {
     "canvases" : [ "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f35" ],
     "within" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r0",
-    "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r2",
+    "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r1",
     "@type" : "sc:Range",
     "label" : "f.13r : Combat du paon et du serpent"
   }, {
     "canvases" : [ "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f37" ],
     "within" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r0",
-    "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r3",
+    "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r2",
     "@type" : "sc:Range",
     "label" : "f.14r : Alpha"
   }, {
     "canvases" : [ "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f102" ],
     "within" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r0",
-    "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r4",
+    "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r3",
     "@type" : "sc:Range",
     "label" : "f.45bis : Mappemonde"
   }, {
-    "canvases" : [ "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f119" ],
-    "within" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r0",
-    "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r5",
-    "@type" : "sc:Range",
-    "label" : "f.52v : Femme sur la bête"
-  }, {
     "canvases" : [ "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f130" ],
     "within" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r0",
-    "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r6",
+    "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r4",
     "@type" : "sc:Range",
     "label" : "f.58r : Message à l'église d'Éphèse"
   }, {
     "canvases" : [ "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f184" ],
     "within" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r0",
-    "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r7",
+    "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r5",
     "@type" : "sc:Range",
     "label" : "f.85r : Le Déluge"
   }, {
-    "canvases" : [ "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f259" ],
-    "within" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r0",
-    "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r8",
-    "@type" : "sc:Range",
-    "label" : "f.121v :Adoration de l'Agneau et foule des Élus palmigères"
-  }, {
     "canvases" : [ "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f260" ],
     "within" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r0",
-    "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r9",
+    "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r6",
     "@type" : "sc:Range",
     "label" : "f.122r : Adoration de la Trinité"
   }, {
     "canvases" : [ "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/canvas/f413" ],
     "within" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r0",
-    "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r10",
+    "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b52505441p/range/r7",
     "@type" : "sc:Range",
     "label" : "f.198r : Médaillons avec des animaux symbolisant le Paradis terrestre en Orient"
   } ]
