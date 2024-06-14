@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://TheoBurnel.github.io/Latin8878-v2/annotations/f35.json" ],
+  "@id" : "https://TheoBurnel.github.io/Latin8878-v2/annotations/collection.json",
+  "label" : "All annotations loaded in TheoBurnel/Latin8878-v2 project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
