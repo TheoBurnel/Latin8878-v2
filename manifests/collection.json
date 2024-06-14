@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://TheoBurnel.github.io/Latin8878-v2/manifests/manifest_2.json",
     "label" : "BnF. Département des Manuscrits. Latin 8878"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://TheoBurnel.github.io/Latin8878-v2/manifests/manifest-3.json",
+    "label" : "BnF. Département des Manuscrits. Latin 8878"
   } ]
 }
